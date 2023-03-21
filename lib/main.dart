@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:study_flutter_widget/click_good.dart';
+import 'package:study_flutter_widget/bottom_navigator_bar.dart';
 
 void main() {
   // runApp(const MyApp());
   // runApp(RandomWordsApp());
   // runApp(const CounterApp());
   // runApp(MainPage());
-  runApp(ClickGoodApp());
+  // runApp(ClickGoodApp());
+  runApp(BottomNavigationBarApp());
 }
 
 class MyApp extends StatelessWidget {
