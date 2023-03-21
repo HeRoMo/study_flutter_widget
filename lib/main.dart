@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study_flutter_widget/bottom_navigator_bar.dart';
+import 'package:study_flutter_widget/button_sample.dart';
 
 void main() {
   // runApp(const MyApp());
@@ -7,7 +7,8 @@ void main() {
   // runApp(const CounterApp());
   // runApp(MainPage());
   // runApp(ClickGoodApp());
-  runApp(BottomNavigationBarApp());
+  // runApp(BottomNavigationBarApp());
+  runApp(ButtonSampleApp());
 }
 
 class MyApp extends StatelessWidget {
