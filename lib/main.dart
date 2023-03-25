@@ -122,8 +122,9 @@ class MainPage extends StatelessWidget {
             children: [
               const Text('Main'),
               OutlinedButton(
-                  onPressed: () => Navigator.of(context).pushNamed('/subpage'),
-                  child: const Text('Subページへ'))
+                  onPressed: () =>
+                      Navigator.of(context).pushReplacementNamed('/subpage'),
+                  child: const Text('Subページへ(Replace)'))
             ],
           ),
         ),
